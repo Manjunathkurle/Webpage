@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    border:none;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+   background-color: white;
+   
+   
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+    font-size: 20px;
+
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    align-items:center;
+    margin-right: auto;
+    margin-left: 200px;
+
+}
+img{
+    width:100%;
+    
+    height:130vh;
+
+}
+.right{
+    display:flex;
+    gap:20px;
+
+
+}
+.section{
+    background: linear-gradient(to right,rgb(243, 69, 173),yellow);
+    padding: 150px;
+    margin-top: -100px;
+    height: 85vh;
+   
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
+    margin-top: -30px;
+}
+.cards{
+    display:flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-top: 0px;
+
+}
+h4,p{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-size: 14px;
+}
+
+    
+
+.Card-img{
+    width:100%;
+    height:35vh;
+    border-top-right-radius: 60px;
+    
+}
+.container1{
+    width: 100%;
+}
+.card1{
+  background-color: white;
+    border: 20px solid white;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.btn{
+    padding:0px;
+    text-align: center;
+margin-top: 100px;
+
+   
+}
+.button{
+    padding: 15px 60px;
+    border-radius: 30px ;
+    background-color: rgba(255,255,255,0.3);
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.rectangle{
+    width: 45%;
+    height: 250px;
+    position: absolute;
+    left: 75px;
+    top:300px;
+    background-color: rgba(255,0,0,0.3);
+    padding: 20px;
+}
+.heading{
+    padding: 20px;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 0px;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+    font-weight: -500;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
